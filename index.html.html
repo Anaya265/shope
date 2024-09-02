@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Coffee</title>
+    <style>
+
+      body{
+        margin: 0px;
+        top: 0px;
+      }
+        em{
+            text-align: center;
+            background-color: goldenrod;
+            padding: 15px;
+            width: 100%;
+            color: white;
+            font-size: 15px;
+            overflow: hidden;
+            position: fixed;
+            margin-top: 0px;
+        }
+
+        .nav
+    #header {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    overflow: hidden;
+    font-size: 15px;
+    background-color: white;
+    height: 80px;
+    width:100% ;
+    position:;
+    margin-top: 0;
+   
+    
+  }
+  .nav{
+  position: sticky;
+  z-index: 0;
+  }
+  
+  #header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:white;
+  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: white;
+  width: 100%;
+  padding: 12px;
+  position: fixed;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  width: 100%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 1800px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  column-count: 2;
+  column-count: 3;
+}
+
+.free .dropdown-content{
+   max-width: 1200px;
+  z-index: 1;
+  column-count: 2;
+  column-count: 3;
+  column-count: 4;
+  column-count: 5;
+}
+.dropdown-content a {
+color: #333;
+padding: 10px 4px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+.dropdown-content .column {
+  padding: 5px;
+  height: 350px; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  height: 610px;
+  width: 50%;  
+}
+
+.boxs {
+  float: left;
+  height: 690px;
+  width: 50%;
+  
+  
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.my {
+  float: left;
+  width: 50%;
+  
+}
+
+.app{
+  float: left;
+  width: 33%;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sag {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ahmy {
+  float: left;
+  width: 25%;
+  height: 590px;
+  padding: 40px;
+  color: white;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h5{
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  overflow: hidden;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-color: black;
+}
+ 
+.carousel-container {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel img {
+            width: 10%;
+            height: auto;
+            margin-left: 10%;
+        }
+
+        .carousel-btn {
+            cursor: pointer;
+            margin-left: 30%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+
+        .sell {
+  float: left;
+  width: 15%;
+  padding: 1px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+h4{
+  background-color: black;
+  padding: 15px;
+  margin-left:40% ;
+  width: 20%;
+   color: white;
+   text-align: center 
+}
+.kill{
+  background-color: black;
+  padding: 15px;
+  margin-left:;
+  width: ;
+   color: white;
+   text-align: center 
+}
+    </style>
+</head>
+<body>
+<em> <i class="fa fa-arrow-left-long"></i>  Free Shipping on orders $49+ shop Now  <i class="fa fa-arrow-right"></i></em>
+<br><br>
+
+<div id="header">
+  <nav>
+  <ul>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4_57B0C1yITevo4etz5GH5RthvpcoMJwPQ&s" style="width: 4%; float: left;">
+
+  <li class="dropdown">
+  <a style="margin-left: 170px;" href="#">FREE SHIPPING</a></li>
+  <li class="dropdown"><a href="#">coffee</a>
+    <div class="dropdown-content">
+      <a href="#"><b>FEATURED</b></a>
+      <a href="#">Subscribe & Save</a>
+      <a href="#">Gift Subscripition</a>
+      <a href="#">Best Seller</a>
+      <a href="#">Excclusives</a>
+      <a href="#">Decaf Coffee</a><br>
+      <a href="#">SHOP ALL COFFEE <i class="fa fa-arrow-right" style="font-size: 13px;"></i></a>
+      <img style="height: 300px;" src="https://peets-content.imgix.net/6rM578slw8dPFVzJTrSEd3/f7d8824c3256f22382666321cb65ae32/24DTC-02-February-LTO-Mount-Elgon-Uganda-Organic-Nav-Promo-Tout-Desktop-312x416.jpg?w=180&auto=format,compress" alt=""> <br><br>
+      <img style="height: 300px;" src="https://peets-content.imgix.net/28yBXqhWFVkwClG05xsVGx/30654ac6c2b92c6f603c2936f2436b98/24DTC-01-Evergreen-Gifts-for-Coffee-People-REVISED-Nav-Promo-Tout-Desktop-312x416.jpg?w=180&auto=format,compress" alt="">
+      
+    </div>
+    </li> 
+  <li class="dropdown"">
+  <a href="#">shop</a>
+  <div class="dropdown-content">
+      <a href="#"><b>SHOPE</b></a>
+      <a href="#">Subscribed & Save</a>
+      <a href="#">Coffee</a>
+      <a href="#">Offers</a>
+      <a href="#">K-Cup<sup>@</sup>Pod</a> 
+      <a href="#">Espresso Capsules</a>
+      <a href="#">Tea</a>
+  
+  <a href="#"><img style="height: 250px;" src="https://peets-content.imgix.net/2TiqUGLJpH8cj5e9PhxCLr/f4f7ea45e05a9dd8fd0a21f9205e56c5/22DTC-Curated-Series-Images-Small-Batch-NAV-TOUT-1-DESKTOP-312x416.jpg?w=180&auto=format,compress" alt=""></a>
+  <a href="#"><img style="height: 250px;" src="https://peets-content.imgix.net/7C6MeGVawkMucaX7QY3jN0/b41bbabfd9253c321ddeab5c5058b805/24OMNI-Winter-Digital-Ethiopian-Super-Natural-Asset-26-Nav-Promo-Tout-Desktop-312x416.JPG?w=180&auto=format,compress" alt=""></a>
+  </div>
+  </li> 
+
+  <li class="dropdown"><a href="#">ABOUT US</a>
+  <div class="dropdown-content">
+    <a href="#"><b>ABOUT US</b></a>
+    <a href="#">Coffee for Coffee People</a>
+    <a href="#">Sourcing with Impact</a>
+    <a href="#">Recipes Blog</a>
+    <a href="#">Why Pee's? </a>
+    <a href="#">Brew Guides</a>
+    <a href="#">Peet's History</a>
+    <img style="height: 230px;" src="https://peets-content.imgix.net/56IpSMfnb318HbTWOfHxpE/ee114d530d7f0d5520f8299d643999d0/21OMNI-09-Sep-NCD-NAV-TOUT-1-DESKTOP-312x416.jpg?w=180&auto=format,compress" alt=""> <br><br>
+    <img style="height: 250px;" src="https://peets-content.imgix.net/32uXihzORBVzxDGL2Urpsz/c4e289629998cc65955bec8bbc377ca3/22MLT-NAV-TOUT-1-DESKTOP-312x416.jpg?w=180&auto=format,compress" alt="">
+  </div>
+  </li> 
+  
+  <li class="dropdown"><a href="#">OUR STORES</a>
+    <div class="dropdown-content">
+      <a href="#"><b>OUR STORES</b></a>
+      <a href="#">Find a Peet's Coffbar</a>
+      <a href="#"> Peet's Coffeebar Menu</a>
+      <a href="#">Get the Peet's App</a>
+      <a href="#">Find Peet's at a Grocery Store</a>
+      <img style="height: 250px;" src="https://peets-content.imgix.net/6u5icckCsrwmmf3B7eRLCv/91256af129ddfead009fa4fd845673c8/peets-app-nav-tout-desktop.png?w=180&auto=format,compress" alt=""> <br><br>
+      <img style="height: 250px;" src="https://peets-content.imgix.net/1ulZhbv50CZ5NV0rBBxmaO/4d0fb6b55bef7bfc4f7d595536109c37/24RET-Winter-Digital-Food-Bev-Asset-Frittata-X01-Nav-Promo-Tout-Desktop-312x416.jpg?w=180&auto=format,compress" alt="">
+      <p style="color: goldenrod; font-size: 14px; margin-left: 10%; margin-top:1% ;">Find a Coffeebar</p>
+    </div>
+    </li> 
+    <li style="margin-left: 23%;"><a href="#about">Log in <i class="fa fa-user"></i> </a></li>
+    <li><a href="hyjf"><i class="fa fa-magnifying-glass"></i></a></li>
+    <li><a href="hk,g"><i class="fa fa-location-dot"></i></a></li>
+    <li><a href="jhyf"><i class="fa fa-truck-fast"></i></a></li>
+  </ul>
+  </nav>
+
+  <div class="clearfix">
+    <div class="box" style="background-color:#eee">
+    <p style="margin-top: 15%; margin-left: 19%;">SUBSCRIBER EXCLUSIVE</p>
+<h1 style="margin-left: 19%; color: goldenrod;">FEBRUARY’S LIMITED <br>RELEASE</h1>    
+    <p style=" margin-left: 19%">Aromatic and sweet like its neighbor, Kenya,<br> 
+but with a character all its own.<br>
+ Notes of melon, brioche,and a lingering finish<br> make every cup of this organic Uganda a treat</p><br>
+<h4 style="background-color: goldenrod;padding: 10px; margin-left: 19%; width: 40%; color: white; text-align: center " >SHOP NOW</h4>
+<h3 style="margin-left: 19%;">SHOP ALL COFFEE  <i class="fa fa-arrow-right"></i></h3>
+    </div>
+    <div class="box">
+    <img src="https://peets-content.imgix.net/6H4VcqlHH6qcF2IWqXe36n/54a3e585c878b801255c849480f86621/24DTC-02-February-LTO-Mount-Elgon-Uganda-Organic-HP-Hero-Split-1280x1180.jpg?w=720&auto=format,compress"width="88%">
+    </div>
+  </div>
+<br><br><br>
+<div class="clearfix">
+  <div class="my">
+    <img src="https://peets-content.imgix.net/7GW60AYlWoCY90LcLtYyOm/f39876d37650f662081e7dc43ea1a3d5/23DTC_June_New_Curated_Subscriptions_Launch_Row_26_HP-Promo-Tile-1454x820.jpg?w=540&auto=format,compress" style="margin-left: 29%; width: 60%;">
+    <h3 style="margin-left: 27%;">MEDIUM ROAST SUBSCRIPTION SERIES</h3>
+    <h6 style="margin-left: 27%;">Talk about easy-drinking, expersing one of peets, most-love medium roaset<br> 
+      every monthy.score 15% OFF your first order with code NEWSUB15 </h6>
+      <h6 style="margin-left: 27%;">SHOP NOW  <i class="fa fa-arrow-right"></i></h6>
+  </div>
+  <div class="my">
+  <img src="https://peets-content.imgix.net/73S1KLUsdbvkLe7IpqxLAB/985d9b3a52f11fb8d44deb6c810783c4/24OMNI-Winter-Digital-Ethiopian-Super-Natural-Asset-20-HP-Promo-Tile-1454x820.JPG?w=540&auto=format,compress" style="width: 60%;">
+<h3>LARGER-THAN-LIFE-FLAVOR</h3>
+<h6>This fan favorite singl orangi daring rosat is famouse for its distanctive aromuse<br>
+of wilde bluebriess,bergamot, and cantied citrus. its a alimited ralace, so<br>
+grab a few pounds while you can.</h6>
+<h6 style="margin-left: 7%;">SHOP NOW  <i class="fa fa-arrow-right"></i></h6>
+  </div>
+</div>
+
+<<br><br>
+
+<div class="clearfix">
+  <div class="my">
+    <img src="https://peets-content.imgix.net/21HkGihGxjnQXoSslOwfci/801cf6b8634f71187262e01f4a6fbe1e/Peets-Evergreen-KCup-PromoTile.jpg?w=540&auto=format,compress" style="margin-left: 28%; width: 60%;">
+    <h3 style="margin-left: 27%;">K-CUP @ PODS</h3>
+    <h6 style="margin-left: 27%;">The same commitement, same card, and same coffe _all in<br>
+    packabing</h6>
+      <h6 style="margin-left: 27%;">SHOP NOW  <i class="fa fa-arrow-right"></i></h6>
+  </div>
+  <div class="my">
+  <img src="https://peets-content.imgix.net/38gjJZQqDetjYHwhGiQFR9/efa77fae0056482fb3c044e188b6c8cf/Image__4___1_.png?w=540&auto=format,compress" style="width: 60%;">
+<h3>WE'RE COFFEE FOR COFFEE PEOPLE</h3>
+<h6>We,re just saying':we think there should actuall be coffee in your coffee</h6>
+<h6>ARE YOU A COFFEE PERSON <i class="fa fa-arrow-right"></i></h6>
+  </div>
+</div>
+<br><br>
+
+<div class="clearfix">
+  <div class="my">
+    <img src="https://peets-content.imgix.net/grBVnL6XNCyG5Xeh05gnz/08fdfbcb25f93db99ed4cc455630df7b/coffee-module-m.jpg?w=540&auto=format,compress" style="margin-left: 28%; width: 60%;">
+    <h3 style="margin-left: 27%;">SHOP COFFEE</h3>
+    <h6 style="margin-left: 27%;">Hand roasted on demand and delivered fres to your door</h6>
+      <h6 style="margin-left: 27%;">ALL COFFEE <i class="fa fa-arrow-right"></i></h6>
+  </div>
+  <div class="my">
+  <img src="https://peets-content.imgix.net/7CGZXHVRsZyMN1PVEuJ33x/428ba1ddf018b716cf225f3562d9f2fb/tea-module-m.jpg?w=540&auto=format,compress" style="width: 60%;">
+<h3>SHOP TEA</h3>
+<h6>Savor Mighty Leafs tea collection:Different form the start </h6>
+<h6>ALL TEA<i class="fa fa-arrow-right"></i></h6>
+  </div>
+</div>
+<br><br><br>
+
+<div class="clearfix">
+  <div class="my">
+    <h1 style="margin-left: 20%;">BEST SELLERS</h1>
+  </div>
+  <div class="my">
+  <p>The coffees our customers love best.<br> From dark to light, intense to bright,<br> there's always a new cup worth experiencing.</p>
+  </div>
+</div>
+<hr style="width: 70%; color: black; margin-left: 10%;">
+<br><br><br>
+
+<h1 style="margin-left: 18%; font-size: px;">ENJOY FREE HOME DELIVERY, SUBSCRIBE AND SAVE</h1>
+
+<div class="clearfix">
+  <div class="sell">
+  <p style="margin-left: 14%;"> <i class="fa-solid fa-rotate-right" style="color: rgb(240, 198, 119); font-size: 19px;"></i>    NEVER RUN OUT.</p>
+  </div>
+  <div class="sell">
+  <p>   <i class="fa fa-light fa-money-check-dollar" style="color: rgb(240, 198, 119); font-size: 19px;"></i> SAVE EVERY TIME.</p>
+  </div>
+  <div class="sell">
+  <p> <i class="fa fa-ban-smoking" style="color:rgb(240, 198, 119); font-size: 19px; ;"></i>   PAUSE OR CANCEL.</p>
+  </div>
+</div>
+<br><br>
+<div class="clearfix">
+  <div class="boxs" style="background-color:#e7e3e3">
+    <img src="https://peets-content.imgix.net/23wHYYhFAL4R4yvH2zlV8j/76da9b0c963f090dc9a978df7b7a9b29/small-batch.jpg?w=720&auto=format,compress"width="92%">
+
+  </div>
+  <div class="boxs" style="background-color: #e7e3e3;">
+    <h2 style="margin-top: 15%; margin-left: 19%;">30% OFF FOR NEW SUBSCRIBERS </h2>
+  <p style=" margin-left: 19%">A Peet's subscription gives you free shipping and access to <br>
+discounts on all of your coffee purchases. Plus, new subscribers get<br>
+30% off their first order using code NEWSUB30. Copy Code
+
+  </p><br>
+<h4 style="background-color: goldenrod;padding: 10px; margin-left: 19%; width: 50%; color: white; text-align: center " >CHOOSE A SUBSCRIPTION</h4>
+<h3 style="margin-left: 19%; color:rgb(138, 135, 135);">Frequent Brewed</h3>
+<h3 style="margin-left: 19%; color:rgb(138, 135, 135);">Sign Origin Series</h3>
+<h3 style="margin-left: 19%; color:of rgb(138, 135, 135);">Small Batch Series</h3>
+<p style="margin-left: 19%; color:rgb(138, 135, 135);">Be on the cutting edage of Coffee.Rare and unique faer<br>
+Sectivelay  Soureced in small batches in small From around the worde.</p>
+<h3 style="margin-left: 19%; color:rgb(138, 135, 135);">Get start <i class="fa fa-arrow-right" style="font-size: 10px;"></i></h3>
+<h3 style="margin-left: 21%; color:rgb(138, 135, 135);">Signature Blend Series</h3>
+
+
+  </div>
+</div>
+<br><br><br><br><br><br><br>
+<h1 style="margin-left: 30%; font-size: 25px;">ENJOY THE FRESHEST PEET'S YOU CAN GET</h1>
+<p style=" text-align: center;">Coffee that goes from the roaster to the brewed cup in the shortest amount<br> of time is the freshest, best tasting coffee—period.</p>
+<br><br>
+
+<div class="clearfix">
+  <div class="app">
+    <i class="fa fa-egg" style="margin-left: 55%;color:rgb(204, 175, 121); font-size:25px ;"></i>
+    <p style="margin-left: 39%;">COMMITTED TO CRAFT</p>
+    <p style="margin-left: 29%;">Our craft roasters are what make Peet’s<br>
+special. Our beans are roasted by hand to<br>
+ get you the perfect cup every time.
+
+    </p>
+  </div>
+  <div class="app">
+    <i class="fa-solid fa-heart" style="margin-left: 30%; color:rgb(184, 160, 117); font-size:30px  ;"></i>
+  <p style="margin-left: 9%;">SEALED FOR FRESHNESS</p>
+  <p style="margin-left: 9%;">Sealed after roasting and marked with<br> the Freshness Stamp</p>
+  </div>
+  <div class="app">
+    <i class="fa fa-truck-fast" style="color: rgb(184, 160, 117); font-size:30px ; margin-left: 20%;"></i>
+    <p>DELIVERED FRESH TO YOU</p>
+    <p>Your time is precious. Say the word<br> and we ship the world’s best coffee <br>direct from our roastery to your door. </p>
+  </div>
+</div>
+<br><br><br><br>
+
+<div class="clearfix">
+  <div class="app">
+  </div>
+  
+</div>
+
+<br>
+<img src="https://peets-content.imgix.net/2B5JjIw0eMxvxV3Xdqe8bk/fdbe4bad1d3e4b9f586a76c704f2a403/24RET-Winter-Digital-Food-Bev-Asset-08-Carousel-Header-Desktop-2164x592.JPG?w=1080&auto=format,compress" style="margin-left: 10%;">
+
+<br><br><br>
+<h4>VIEW ALL</h4>
+<p style="margin-left: 42%; font-size: 19px;">FIND A COFFEEBAR <i class="fa fa-location-dot"></i> </p>
+<br><br>
+
+<hr style="width: 75%; color: rgb(8, 8, 8); margin-left: 10%;">
+<br><br>
+<div class="clearfix">
+  <div class="app">
+    <h2 style="color: goldenrod; margin-left: 35%;">OUR COFFEE<br> REVOLUTION</h2>
+    <pre style="margin-left: 35%; font-size: 15px;">When Alfred Peet opened the doors to his first
+coffeebar in 1966, he forever changed the
+expectations of American coffee drinkers.</p>
+  <div class="kill"> Show Now</div> 
+  </div>
+
+  <div class="app">
+    <img src="https://peets-content.imgix.net/1DxO89kdlMC0N2v0GypJiy/42249cba4d2be6fc25c20fb68655dbff/coffee-revolution-ankle-tout.jpg?w=540&auto=format,compress" style="margin-left: 35%;">
+  </div>
+</div>
+<br><br><br>
+<div class="clearfix">
+  <div class="ahmy" style="background-color:#272626; color: white;">
+  <p style="font-size: 19px;">Peet’s Coffee<br>Berkeley, California</p><br>
+
+   <h2 style="font-size: 25px;">Est. 1966</h2><br><br><br><br><br><br><br<br><br>
+   <pre>
+   <i class="fa-brands fa-instagram" style="color: gray;"></i>  <i class="fa-brands fa-twitter" style="color: gray;"></i>   <i class="fa-brands fa-facebook" style="color: gray;"></i>  <i class="fa-brands fa-youtube" style="color: gray;"></i>   <i class="fa-brands fa-linkedin" style="color: gray;"></i>  <i class="fa-brands fa-tiktok" style="color: gray;"></i>
+   </pre>
+  </div>
+  <div class="ahmy" style="background-color:#272626; color: white;">
+  <p style="font-size: 12px; color: gray;"><span style="color: white;">HELP CENTER</span><br><br>
+CONTACT US<br><br>
+HELP CENTER<br><br>
+SHIPPING & RETURNS</p>
+<br><br>
+<p style="font-size: 12px; color: gray;"><span style="color: white;">COMPANY</span><br><br>
+  CAREERS<br><br>
+  NEWSROOM<br><br>
+  CODE OF ETHICS<br><br>
+  SUPPLY CHAIN TRANSPARENCY<br><br>
+  SUPPLIER CODE OF CONDUCT</p>
+  </div>
+  <div class="ahmy" style="background-color:#272626; color: white;">
+  <p style="font-size: 12px; color: gray;"><span style="color: white;">GIFT CARDS</span><br><br>
+SHOP GIFT CARDS<br><br>
+OFFERS<br><br>
+CURRENT OFFERS</p>
+<br><br><br>
+
+<p style="color: gray; font-size: 12px;"><span style="color: white;">OFFERS</span><br><br>
+  CURRENT OFFERS<br><br>
+  GET FREE COFFEE</p>
+  <br><br><br>
+<p style="font-size: 12px;color: gray;"> <span style="color: white;">PARTNER WITH PEET'S</span><br><br>
+  FOODSERVICE PROGRAM<br><br>
+  BECOME AN AFFILIATE</p>
+  </div>
+  <div class="ahmy" style="background-color:#272626; color: white;">
+  <p style="color: gray;"><span style="color: white;">FIND PEET'S IN GROCERY</span><br><br>
+PRODUCT FINDER</p><br><br><br><br>
+<p style="color: gray; font-size: 12px;"> <span style="color: white;">BLOG</span><br><br>
+  THE CUPPING ROOM</p>
+  <br><br><br><br><br>
+  <p style="color: white; font-size: 12px;">THE PEET'S APP</p>
+  <pre style="background-color: rgb(19, 18, 18); width: 60%; padding: 1px; color: gray;font-size: 10px;border-radius: 10px;"><i class="fa-brands fa-apple" style="color: black; font-size: 25px;"></i>  Download on the
+   <span style="font-size: 15px; color:rgb(78, 77, 77) ;"> App Store</span>
+  </pre>
+
+  <pre style="background-color: rgb(19, 18, 18); width: 60%; padding: 1px; color: gray;font-size: 10px;border-radius: 10px;"><i class="fa-brands fa-google-play" style="color: black; font-size: 25px; top: 1%;"></i> GEL IT ON
+    <span style="font-size: 15px; color:rgb(102, 100, 100) ;"> Google Play</span>
+   </pre>
+  </div>
+  
+  <p style="background-color: black; color: white;padding: 50px; text-align: center;top: 15%;">© 2024. PEET'S COFFEE</p>
+</div>
+<h5 style="background-color: black;">This website uses cookies to ensure you get the best experience on our website.Privacy Policy<span style=" width: 10%;  color: white; word-spacing: 500px;"> Prefrences</span> <span style="border: 1px solid white ; padding: 10px; border-radius: 5px; background-color: black;">Accept</span></h5>
+</div>
+
+</body>
+</html>
